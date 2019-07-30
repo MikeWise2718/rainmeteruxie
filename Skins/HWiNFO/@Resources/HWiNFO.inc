@@ -10,6 +10,11 @@ HWiNFO-CPU0-DTS-SensorId=0xF0000400
 HWiNFO-CPU0-DTS-SensorInstance=0x0
 HWiNFO-CPU0-DTS-CoreMax=0x10000ff
 
+; CPU 0 Enhanced
+HWiNFO-CPU0-Enhanced-SensorId=0xF0002a00
+HWiNFO-CPU0-PackagePower=0x5000000
+
+
 ; Motherboard
 HWiNFO-MOBO-SensorId=0xf001889a
 HWiNFO-MOBO-SensorInstance=0x1
@@ -22,12 +27,14 @@ HWiNFO-GPU0-Usage=0x7000000
 HWiNFO-GPU0-Temp=0x1000000
 HWiNFO-GPU0-Fan=0x8000000
 
-; GPU 1
+; GPU 1 - GTX 1060
 HWiNFO-GPU1-SensorId=0xe0002000
 HWiNFO-GPU1-SensorInstance=0x14
 HWiNFO-GPU1-Usage=0x7000000
 HWiNFO-GPU1-Temp=0x1000000
-HWiNFO-GPU1-Fan=0x8000000
+HWiNFO-GPU1-Fan1=0x3000000
+HWiNFO-GPU1-Fan2=0x8000000
+HWiNFO-GPU1-Power=0x5000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
